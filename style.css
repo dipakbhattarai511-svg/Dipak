@@ -1,0 +1,39 @@
+/* 
+  wb05 S2, S3 Live coding CSS wardrobe file 
+  (Demonstrates debugging principles and how selectors work to students)
+*/
+
+/* [S2] Background color basic styling (canvas) */
+body {
+  /* [S3 Debug demo] Later, match this color with text color to train invisible-text debugging.
+     background-color: white; 
+     color: white;
+  */
+  background-color: lightyellow; 
+}
+
+/* [S2] Tag selector: turns ALL p elements green indiscriminately */
+p {
+  color: green;
+}
+
+/* [S2] Class selector: group uniform for multiple elements */
+.alert-text {
+  color: red;
+  font-size: 20px;
+}
+
+/* [S2] ID selector: one-of-a-kind absolute power */
+#main-title {
+  color: gold; 
+  /* Use text-shadow for a dark outline to improve readability */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Additional decoration (card layout skeleton preparation) */
+.card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
+  background-color: white;
+}
